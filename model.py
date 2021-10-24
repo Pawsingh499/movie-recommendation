@@ -9,7 +9,7 @@ bucket = "sugges"
 
 
 
-metadata = pd.read_csv("movies_metadata.csv")
+metadata = pd.read_csv("movies_metadata.csv",low_memory=False)
 credits_ = pd.read_csv("credits.csv")
 keywords = pd.read_csv("keywords.csv")
 
