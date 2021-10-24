@@ -1,0 +1,2 @@
+web : guncorn wsgi : app
+ 
